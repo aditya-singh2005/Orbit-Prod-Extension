@@ -1,65 +1,83 @@
-# orbit README
+# 🚀 Orbit - VS Code Productivity Tracker
 
-This is the README for your extension "orbit". After writing up a brief description, we recommend including the following sections.
+![Orbit Logo](https://user-images.githubusercontent.com/yourusername/orbit-logo.png)
 
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+**Orbit** helps you track your coding time directly in VS Code and visualize your productivity with an interactive dashboard.
 
 ---
 
-## Working with Markdown
+## Features
 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+- ⌚ **Live Coding Time Tracking**  
+  Track how much time you spend coding in VS Code in real-time.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
+- 📊 **Interactive Dashboard**  
+  View your total coding time, daily progress, weekly charts, streaks, and achievements.
 
-## For more information
+- 📈 **Status Bar Integration**  
+  Quickly see your current session time and total coding time in the VS Code status bar.
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- 🏆 **Achievements & Goals**  
+  Gamify your coding with streaks, daily targets, and milestone achievements.
 
-**Enjoy!**
+- 🔄 **Refresh & Export**  
+  Refresh dashboard stats or export your productivity data for personal analysis.
+
+---
+
+## Commands
+
+After installing, you can run the following commands from the **Command Palette** (`Ctrl+Shift+P`):
+
+| Command | Description |
+|---------|-------------|
+| `Orbit: Show Productivity Stats` | Shows your total coding time in a popup. |
+| `Orbit: Show Productivity Dashboard` | Opens the interactive dashboard with charts, streaks, and achievements. |
+
+---
+
+## Installation
+
+1. Open VS Code.
+2. Go to the **Extensions** panel (`Ctrl+Shift+X`).
+3. Search for `Orbit - Productivity Tracker`.
+4. Click **Install**.
+
+> Or install from the `.vsix` file if you packaged it manually.
+
+---
+
+## Usage
+
+1. Start coding! Orbit automatically tracks your coding time.
+2. Open **Command Palette** (`Ctrl+Shift+P`) and type `Orbit: Show Productivity Dashboard` to view your interactive dashboard.
+3. Monitor your daily progress and achievements.
+
+---
+
+## Data Persistence
+
+- Orbit stores your total coding time and daily breakdowns in VS Code's global state, so your progress is saved across sessions.
+- Current session time is tracked live and included in totals.
+
+---
+
+## Changelog
+
+### 0.0.1
+- Initial release
+- Status bar integration
+- Live coding time tracking
+- Interactive dashboard with charts and achievements
+
+---
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to fork the repository and submit a pull request.
+
+---
+
+## License
+
+MIT License © 2025 [Your Name]
