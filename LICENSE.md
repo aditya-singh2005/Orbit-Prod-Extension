@@ -1,0 +1,3 @@
+MIT License
+Copyright (c) 2025 Aditya Singh
+Permission is hereby granted...
