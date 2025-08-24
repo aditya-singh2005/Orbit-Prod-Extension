@@ -4,6 +4,11 @@
   "description": "Track your VS Code coding time and see your productivity dashboard.",
   "version": "0.0.1",
   "publisher": "orbit-prod-extension",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/orbit.git"
+  },
+  "license": "MIT",
   "engines": {
     "vscode": "^1.103.0"
   },
@@ -14,14 +19,15 @@
   "main": "./extension.js",
   "contributes": {
     "commands": [
-    {
-      "command": "orbit.showStats",
-      "title": "Show Productivity Stats"
-    },
-    {
-      "command": "orbit.showDashboard",
-      "title": "Show Productivity Dashboard"
-    }]
+      {
+        "command": "orbit.showStats",
+        "title": "Show Productivity Stats"
+      },
+      {
+        "command": "orbit.showDashboard",
+        "title": "Show Productivity Dashboard"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
