@@ -1,0 +1,39 @@
+{
+  "name": "orbit",
+  "displayName": "Orbit-Productivity",
+  "description": "Track your VS Code coding time and see your productivity dashboard.",
+  "version": "0.0.1",
+  "publisher": "orbit-prod-extension",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+    {
+      "command": "orbit.showStats",
+      "title": "Show Productivity Stats"
+    },
+    {
+      "command": "orbit.showDashboard",
+      "title": "Show Productivity Dashboard"
+    }]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.103.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "eslint": "^9.32.0",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
