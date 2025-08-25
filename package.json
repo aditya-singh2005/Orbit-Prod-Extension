@@ -2,8 +2,9 @@
   "name": "orbit-productivity-tracker",
   "displayName": "Orbit-Productivity",
   "description": "Track your VS Code coding time and see your productivity dashboard.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "orbit-extension",
+  "icon": "logo/Orbit-logo.jpg",
   "repository": {
     "type": "git",
     "url": "https://github.com/yourusername/orbit.git"
