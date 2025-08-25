@@ -1,83 +1,93 @@
-# 🚀 Orbit - VS Code Productivity Tracker
+# 🌌 Orbit - VS Code Productivity Tracker  
 
-![Orbit Logo](https://user-images.githubusercontent.com/yourusername/orbit-logo.png)
+![Orbit Logo](/orbit/logo/Orbit-logo.jpg)  
 
-**Orbit** helps you track your coding time directly in VS Code and visualize your productivity with an interactive dashboard.
-
----
-
-## Features
-
-- ⌚ **Live Coding Time Tracking**  
-  Track how much time you spend coding in VS Code in real-time.
-
-- 📊 **Interactive Dashboard**  
-  View your total coding time, daily progress, weekly charts, streaks, and achievements.
-
-- 📈 **Status Bar Integration**  
-  Quickly see your current session time and total coding time in the VS Code status bar.
-
-- 🏆 **Achievements & Goals**  
-  Gamify your coding with streaks, daily targets, and milestone achievements.
-
-- 🔄 **Refresh & Export**  
-  Refresh dashboard stats or export your productivity data for personal analysis.
+**Orbit** is your personal productivity co-pilot inside VS Code.  
+Track your coding time ⏳, stay consistent 📈, and celebrate milestones 🏆 — all without leaving your editor.  
 
 ---
 
-## Commands
+## ✨ Features  
 
-After installing, you can run the following commands from the **Command Palette** (`Ctrl+Shift+P`):
+- ⌚ **Real-time Coding Tracker**  
+  Automatically tracks how much time you spend coding inside VS Code.  
 
-| Command | Description |
-|---------|-------------|
-| `Orbit: Show Productivity Stats` | Shows your total coding time in a popup. |
-| `Orbit: Show Productivity Dashboard` | Opens the interactive dashboard with charts, streaks, and achievements. |
+- 📊 **Beautiful Interactive Dashboard**  
+  View your daily stats, weekly insights, streaks, and long-term progress in one place.  
 
----
+- 📈 **Status Bar at a Glance**  
+  Always know your current coding session time right in VS Code’s status bar.  
 
-## Installation
+- 🏆 **Achievements & Streaks**  
+  Turn coding into a game — unlock milestones, hit streaks, and crush your daily targets.  
 
-1. Open VS Code.
-2. Go to the **Extensions** panel (`Ctrl+Shift+X`).
-3. Search for `Orbit - Productivity Tracker`.
-4. Click **Install**.
-
-> Or install from the `.vsix` file if you packaged it manually.
+- 🔄 **Export & Refresh Anytime**  
+  Refresh live stats instantly or export your productivity data for personal tracking.  
 
 ---
 
-## Usage
+## 🛠 Commands  
 
-1. Start coding! Orbit automatically tracks your coding time.
-2. Open **Command Palette** (`Ctrl+Shift+P`) and type `Orbit: Show Productivity Dashboard` to view your interactive dashboard.
-3. Monitor your daily progress and achievements.
+Run these commands via the **Command Palette** (`Ctrl + Shift + P`):  
 
----
-
-## Data Persistence
-
-- Orbit stores your total coding time and daily breakdowns in VS Code's global state, so your progress is saved across sessions.
-- Current session time is tracked live and included in totals.
+| Command | What it does |
+|---------|--------------|
+| `Orbit: Show Productivity Stats` | Quick summary of your total coding time. |
+| `Orbit: Show Productivity Dashboard` | Opens a detailed dashboard with charts, streaks, and achievements. |
 
 ---
 
-## Changelog
+## 📥 Installation  
 
-### 0.0.1
-- Initial release
-- Status bar integration
-- Live coding time tracking
-- Interactive dashboard with charts and achievements
+1. Open **VS Code**.  
+2. Go to the **Extensions** panel (`Ctrl + Shift + X`).  
+3. Search for **Orbit - Productivity Tracker**.  
+4. Click **Install**.  
 
----
-
-## Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to fork the repository and submit a pull request.
+> 💡 Advanced users: You can also install from a packaged `.vsix` file.  
 
 ---
 
-## License
+## 🚀 Getting Started  
 
-MIT License © 2025 [Your Name]
+1. Just start coding — Orbit works automatically in the background.  
+2. Open the **dashboard** (`Ctrl + Shift + P → Orbit: Show Productivity Dashboard`).  
+3. Stay motivated with daily streaks, progress charts, and achievements.  
+
+---
+
+## 💾 Data Persistence  
+
+- Orbit securely stores your stats in VS Code’s **global state**, so progress isn’t lost between sessions.  
+- Tracks **total coding time**, **daily breakdowns**, and **current session live time**.  
+
+---
+
+## 📜 Changelog  
+
+### v0.0.1  
+- 🎉 Initial release  
+- ⌚ Status bar integration  
+- 📊 Live coding time tracking  
+- 🏆 Interactive dashboard with charts + achievements  
+
+---
+
+## 🤝 Contributing  
+
+Got ideas to make Orbit better?  
+- ⭐ Star the repo to support  
+- 🐛 Report issues  
+- 🔧 Submit PRs  
+
+We’d love your feedback to make Orbit the ultimate productivity tracker for developers.  
+
+---
+
+## 📄 License  
+
+Licensed under the **MIT License** © 2025 [Aditya Singh]  
+
+---
+
+⚡ *“Stay in orbit, keep coding, and watch your productivity soar.”* 🌌  
