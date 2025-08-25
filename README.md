@@ -1,6 +1,6 @@
 # 🌌 Orbit - VS Code Productivity Tracker  
 
-![Orbit Logo](/orbit/logo/Orbit-logo.jpg)  
+![Orbit Logo](/logo/Orbit-logo.jpg)  
 
 **Orbit** is your personal productivity co-pilot inside VS Code.  
 Track your coding time ⏳, stay consistent 📈, and celebrate milestones 🏆 — all without leaving your editor.  
