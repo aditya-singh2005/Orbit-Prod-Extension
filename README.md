@@ -1,4 +1,4 @@
-#  Orbit - VS Code Productivity Tracker  
+#  🪐 Orbit - VS Code Productivity Tracker  
 
 <p align="center">
   <img src="logo/Orbit-logo.jpg" alt="Orbit Logo" width="200"/>
